@@ -73,6 +73,16 @@
             bindings = <&kp QUESTION>;
             key-positions = <26 27>;
         };
+
+        ei {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <26 38>;
+        };
+
+        kana {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <29 41>;
+        };
     };
 
     macros {
